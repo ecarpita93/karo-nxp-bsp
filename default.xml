@@ -17,7 +17,7 @@
   
   <default sync-j="2"/>
   
-  <project name="meta-readonly-rootfs-overlay" path="sources/meta-readonly-rootfs-overlay" remote="overlayFS" revision="6ee6d3517c80ea61965f3d6b1290516caf07d86f" upstream="master"/>
+  <project name="meta-readonly-rootfs-overlay" path="sources/meta-readonly-rootfs-overlay" remote="overlayFS" revision="735aba8682471193d631eb08602b772b6c41cbb7" upstream="master"/>
   
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="8be1d3a0ba0cf32e61144900597207af5698c10d"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="b0d805060791006d651efd3d7ae3dd5add8f70fe" upstream="hardknott"/>

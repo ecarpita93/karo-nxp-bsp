@@ -12,7 +12,7 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="karo" fetch="https://github.com/karo-electronics"/>
   
-  <remote name="overlayFS" fetch="https://github.com/cmhe/meta-readonly-rootfs-overlay"/>
+  <remote name="overlayFS" fetch="https://github.com/cmhe"/>
   
   
   <default sync-j="2"/>

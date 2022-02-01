@@ -12,7 +12,12 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   <remote name="karo" fetch="https://github.com/karo-electronics"/>
   
+  <remote name="overlayFS" fetch="https://github.com/cmhe/meta-readonly-rootfs-overlay"/>
+  
+  
   <default sync-j="2"/>
+  
+  <project name="meta-readonly-rootfs-overlay" path="sources/meta-readonly-rootfs-overlay" remote="overlayFS" upstream="master"/>
   
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="8be1d3a0ba0cf32e61144900597207af5698c10d"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="b0d805060791006d651efd3d7ae3dd5add8f70fe" upstream="hardknott"/>
